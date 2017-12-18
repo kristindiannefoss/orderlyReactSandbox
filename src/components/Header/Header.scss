@@ -1,0 +1,82 @@
+@import '../../variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.Header {
+	margin-bottom: 20px;
+
+	&_home-icon {
+		margin-right: 5px;
+	}
+
+	.control-pannel {
+		  /* We first create a flex layout context */
+	  display: flex;
+
+	  /* Then we define the flow direction
+	     and if we allow the items to wrap
+	   * Remember this is the same as:
+	   * flex-direction: row;
+	   * flex-wrap: wrap;
+	   */
+	  flex-flow: row wrap;
+
+	  /* Then we define how is distributed the remaining space */
+	  justify-content: space-around;
+	}
+
+	.pannel-button {
+	  background-color: #f1f1f1;
+	  width: 100px;
+		border: #c7c6c626;
+		border-style: solid;
+		border-width: 0.5px;
+	  text-align: center;
+	  font-size: 30px;
+    flex-grow: 1;
+    border-radius: 9px;
+		align-items: flex-start;
+    height: 74px;
+		transition: all 1s ease;
+
+		.button-section {
+	    height: 32px;
+		}
+
+		img {
+			height: 60px;
+			padding: 10px;
+		}
+
+		.nav-label {
+	    font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+	    text-align: center;
+	    font-weight: bold;
+	    letter-spacing: 1px;
+	    text-transform: uppercase;
+			transition: all 0.5s ease;
+		}
+
+		&:hover {
+			height: 1200px;
+			-webkit-box-shadow: 0px 13px 33px -8px rgba(0,0,0,0.61);
+			-moz-box-shadow: 0px 13px 33px -8px rgba(0,0,0,0.61);
+			box-shadow: 0px 13px 33px -8px rgba(0,0,0,0.61);
+			transition: flex-basis 700ms ease-in-out;
+			flex-grow: 100;
+			align-items: flex-start;
+
+			img {
+				height: 80px;
+			}
+
+			.button-section {
+		    height: 64px;
+			}
+
+			.nav-label {
+		    font-size: 35px;
+			}
+		}
+	}
+}

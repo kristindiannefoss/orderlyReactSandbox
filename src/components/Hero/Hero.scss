@@ -1,0 +1,49 @@
+@import '../../variables.scss';
+
+.Hero {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	min-height: 70vh;
+	background: #26d3a7;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+
+	h1 {
+		font-style: bold;
+		font-weight: 300;
+		text-align: center;
+		margin: auto;
+		padding: 0;
+		font-family: 'Open Sans', sans-serif !important;
+	}
+
+	.bot-message-section {
+		display: flex;
+		// flex-direction: column;
+
+		.bot-message {
+			margin-left: 0;
+			padding: 15px 20px;
+			display: block;
+			font-size: 19px;
+			border-radius: 30px;
+			background-color: #FFF;
+			box-shadow: 0 0 12px rgba(0,0,0,0.15);
+			color: #333;
+			font-family: "Open Sans",sans-serif;
+
+			img {
+				height: 20px;
+			}
+		}
+	}
+
+	.loiue-big {
+
+		img {
+			height: 300px;
+		}
+	}
+
+}

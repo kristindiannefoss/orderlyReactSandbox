@@ -1,0 +1,24 @@
+@import '../../variables.scss';
+
+.About {
+  .member-examples .examples-container {
+      font-size: 0;
+      text-align: center;
+      max-width: 1150px;
+      margin: 82px auto 0;
+  }
+
+  .member-examples .example {
+    display: inline-block;
+    background-color: white;
+    overflow: hidden;
+    width: 270px;
+    height: 375px;
+    border-radius: 6px;
+    padding-top: 30px;
+    text-align: center;
+    margin: 8px;
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+  }
+}

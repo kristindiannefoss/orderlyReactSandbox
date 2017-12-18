@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="163" height="124" viewBox="0 0 163 124">
+    <defs>
+        <filter id="a" width="101.9%" height="103.3%" x="-.6%" y="-.8%" filterUnits="objectBoundingBox">
+            <feOffset dx="1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.266666667 0 0 0 0 0.654901961 0 0 0 0 0.941176471 0 0 0 0.5 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="b" d="M19.01 33.811v-5.438h8.192v-8.158h5.46v8.158h8.19v5.438h-8.19v8.158h-5.46V33.81z"/>
+        <path id="c" d="M83.94 43.919l8.634 22.986 8.572-17.042 7.746 15.398 10.032-13.311h9.43c-1.398 15.24-14.287 27.224-29.938 27.224-15.651 0-28.54-11.984-29.938-27.224h9.43l6.031-8.031z"/>
+        <filter id="d" width="121.3%" height="142.7%" x="-10.7%" y="-25.3%" filterUnits="objectBoundingBox">
+            <feOffset dx="7" dy="4" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.0736270046 0 0 0 0 0.602811437 0 0 0 0 0.469535358 0 0 0 1 0"/>
+        </filter>
+        <path id="e" d="M68.478 46.448c1.397-15.24 14.287-27.224 29.938-27.224 15.651 0 28.54 11.984 29.937 27.224h-12.159l-6.381 8.442-8.667-17.264-7.841 15.62-7.747-20.584-10.381 13.786h-6.699z"/>
+        <filter id="f" width="121.3%" height="140.9%" x="-10.7%" y="-17.2%" filterUnits="objectBoundingBox">
+            <feOffset dx="7" dy="4" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.0736270046 0 0 0 0 0.602811437 0 0 0 0 0.469535358 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#25D3A7" d="M44.378 118.229l58.302-.916a2.108 2.108 0 0 0 1.595-3.447l-13.476-16.39a2.108 2.108 0 0 0-1.661-.768l-31.77.495c-.64.01-1.24.31-1.632.815l-13.056 16.81a2.108 2.108 0 0 0 1.698 3.4z"/>
+        <g filter="url(#a)" transform="translate(.19 .51)">
+            <path fill="#004374" fill-rule="nonzero" d="M157.973 98.98l-10.381-10.4V0H0v98.598h50.954l-11.81 15.299c-1.587 1.876-1.302 6.36 3.302 6.615h62.764c4.508-.413 4.73-4.898 3.301-6.615l-11.81-15.299h29.97l15.842 15.871c6.825 6.043 13.397 2.067 15.46 0 2.096-2.067 6.254-8.747 0-15.49zM45.176 115.01l12.699-16.444h31.874l12.699 16.444H45.176zM5.46 5.47h136.672v77.607L132.004 72.93l-1.936 1.94-3.715-3.721c4.73-6.044 7.556-13.645 7.556-21.883 0-19.624-15.937-35.59-35.525-35.59S62.86 29.642 62.86 49.298s15.937 35.59 35.557 35.59c5.397 0 10.476-1.24 15.08-3.403l5.016 5.026-1.937 1.94 4.667 4.675H5.46V5.471zm116.893 77.161l-3.937-3.943c1.524-1.05 2.921-2.227 4.255-3.467l3.524 3.53-3.842 3.88zM83.94 43.987l8.635 23.123 8.572-17.143 7.746 15.49 10.032-13.39h9.43c-1.398 15.33-14.287 27.384-29.938 27.384-15.651 0-28.54-12.054-29.938-27.385h9.43l6.031-8.079zm-15.46 2.545c1.396-15.33 14.286-27.385 29.937-27.385 15.651 0 28.54 12.054 29.937 27.385h-12.159l-6.381 8.492-8.667-17.366-7.841 15.712-7.747-20.705-10.381 13.867h-6.699zm85.653 64.057c-2.064 2.067-5.651 2.067-7.746 0L124.29 88.42l7.746-7.76 22.096 22.168c3.016 3.213 1.016 6.711 0 7.76z"/>
+            <use fill="#25D3A7" xlink:href="#b"/>
+            <path stroke="#004374" stroke-width="5.27" d="M24.567 25.738V17.58h10.73v8.158H43.488v10.708h-8.191v8.158h-10.73v-8.158h-8.191V25.738h8.19z"/>
+            <use fill="#25D3A7" xlink:href="#c"/>
+            <use fill="#000" filter="url(#d)" xlink:href="#c"/>
+            <use stroke="#004374" stroke-width="5.27" xlink:href="#c"/>
+            <g>
+                <use fill="#25D3A7" xlink:href="#e"/>
+                <use fill="#000" filter="url(#f)" xlink:href="#e"/>
+                <use stroke="#004374" stroke-width="5.27" xlink:href="#e"/>
+            </g>
+            <path fill="#004374" fill-rule="nonzero" d="M13.683 60.076H57.43v5.438H13.683zM13.683 76.423h24.604v5.438H13.683z"/>
+        </g>
+    </g>
+</svg>
